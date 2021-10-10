@@ -1,0 +1,24 @@
+.input_color {
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+    outline:none;
+        }
+    
+    .calc {
+    display: grid;
+    grid-template-columns: repeat(4, 40px);
+        }
+    
+    .button:hover {
+    filter: brightness(0.8);
+        }
+    
+    .just_{
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    }
